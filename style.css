@@ -12,3 +12,7 @@
   --nc-ac-1: #7928CA;
   --nc-ac-tx: #FFFFFF;
 }
+
+body {
+  font-family: 'ABeeZee', sans-serif;
+}
