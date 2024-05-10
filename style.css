@@ -13,6 +13,6 @@
   color: #ffff;
 }
 
-::backdrop{
-  color: gray;
+body {
+  background-color: grey;
 }
