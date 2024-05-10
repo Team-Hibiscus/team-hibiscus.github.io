@@ -9,6 +9,10 @@
 }
 
 ::selection {
-  background-color: #5322dbfd; /* replace with your desired purple color */
-  color: #ffff; /* replace with your desired text color */
+  background-color: #5322dbfd;
+  color: #ffff;
+}
+
+::-ms-backdrop{
+  color: gray;
 }
