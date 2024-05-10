@@ -1,4 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+.abeezee-regular {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abeezee-regular-italic {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
 :root {
   --nc-tx-1: #ffffff;
@@ -13,6 +25,3 @@
   --nc-ac-tx: #FFFFFF;
 }
 
-body {
-  font-family: 'ABeeZee', sans-serif;
-}
