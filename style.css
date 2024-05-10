@@ -13,15 +13,10 @@
   --nc-ac-tx: #FFFFFF;
 }
 
-.open-sans-banana {
+.open-sans-banana, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'ABeeZee', sans-serif;
+  font-variation-settings: "wdth" 100;
 }
