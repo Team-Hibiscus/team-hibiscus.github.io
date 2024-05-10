@@ -13,6 +13,6 @@
   color: #ffff;
 }
 
-::-ms-backdrop{
+::backdrop{
   color: gray;
 }
