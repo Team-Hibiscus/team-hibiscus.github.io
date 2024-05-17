@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .open-sans-banana, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
@@ -16,4 +16,39 @@
 body {
   background-color: black;
   color: #ffff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: grey;
+  color: #ffff;
+  /* Add these styles */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10; /* Ensure the header stays on top */
+  text-indent: 10px;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain; /* Scale the image to fit within the dimensions */
+}
+
+#right-box {
+  position: fixed;
+  top: 130px; /* Adjust this value to match the height of your header */
+  right: 0;
+  width: 200px;
+  height: 50vh;
+  border-width: 10px;
+  border-color: #db2241fd;
+  border-style: solid;
+  background-color: #5322dbfd;
+  color: #ffff;
+  padding: 20px;
 }
